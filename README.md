@@ -1,13 +1,14 @@
-# Jurades
-## An AI Charades game, powered by JURASSIC language model by AI21Labs Studio.
+<img width="350" align="right" src="https://user-images.githubusercontent.com/7150767/128235508-b8ec81f5-874d-4496-b6d0-e7bdbf3f7017.png">
+<img width="300" alt="Jurades" src="https://user-images.githubusercontent.com/7150767/128235107-903820d0-dbf4-4d73-98d8-64542298b02f.png">
 
-[Running the game](#running-the-game)
-- [Server](#server)
-- [Client](#client)
+## An AI Charades game, _powered by JURASSIC language model by AI21Labs Studio_
 
-[How to play](#how-to-play?)
 
-[Configuration](#configuration)
+- [Running the game](#running-the-game)
+   - [Server](#server)
+   - [Client](#client)
+- [How to play](#how-to-play)
+- [Configuration](#configuration)
 
 # Running the game
 
@@ -59,14 +60,14 @@ Install the relevant packages
 npm i
 ```
 
-#### Running the local dev version
+### Running the local dev version
 Simply run the following inside the client folder
 ```shell
 npm start
 ```
 And the app will be accessible at `http://localhost:3000`
 
-#### Building for production
+### Building for production
 Run
 ```shell
 npm run build
