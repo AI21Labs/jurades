@@ -22,20 +22,17 @@ You need to have `python > 3.5` and `pip` to install the dependencies and run th
 
 In order to run the server locally:
 
-1. Enter the server folder
+1. Enter the server folder and install the python dependencies using pip
 ```shell
 cd server
-```
-2. Install the python dependencies using pip
-```shell
 pip install -r requirements.txt
 ```
-3. Set your AI21 Studio API key as an environment variable.
+2. Set your AI21 Studio API key as an environment variable.
    _(Replace <YOUR-API-KEY> with the key you generated in AI21 Studio)_
 ```shell
 AI21_API_KEY=<YOUR-API-KEY>
 ```
-4. Start Flask's development server
+3. Start Flask's development server
 ```shell
 python main.py
 ```
