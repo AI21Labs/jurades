@@ -1,7 +1,7 @@
 <img width="350" align="right" src="https://user-images.githubusercontent.com/7150767/128235508-b8ec81f5-874d-4496-b6d0-e7bdbf3f7017.png">
 <img width="300" alt="Jurades" src="https://user-images.githubusercontent.com/7150767/128235107-903820d0-dbf4-4d73-98d8-64542298b02f.png">
 
-## An AI Charades game, _powered by JURASSIC language model by AI21Labs Studio_
+## An AI Charades game, _powered by Jurassic-1 language model by AI21Labs Studio_
 
 
 - [Running the game](#running-the-game)
@@ -40,9 +40,6 @@ AI21_API_KEY=<YOUR-API-KEY>
 python main.py
 ```
 ***🎉 The server should be up and running locally on port 5000.***
-
-#### Please note: this method runs Flask's development server, and is not intended for production deployment.
-For serving this app in a production environment, please look for instructions on how to server Flask apps. (For example, using Gunicorn, Waitress or any other WSGI server)
 
 ## Client
 
