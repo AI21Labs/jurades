@@ -30,7 +30,7 @@ pip install -r requirements.txt
 2. Set your AI21 Studio API key as an environment variable.
    _(Replace <YOUR-API-KEY> with the key you generated in AI21 Studio)_
 ```shell
-AI21_API_KEY=<YOUR-API-KEY>
+export AI21_API_KEY=<YOUR-API-KEY>
 ```
 3. Start Flask's development server
 ```shell
