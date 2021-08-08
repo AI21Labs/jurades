@@ -1,5 +1,5 @@
 import React, {useCallback, useState} from "react";
-import {Box, Button, makeStyles, TextField} from "@material-ui/core";
+import {Box, makeStyles} from "@material-ui/core";
 import {useDispatch, useSelector} from "react-redux";
 import {players} from "../store/selectors";
 import {newPlayer} from "../store/reducers/players";

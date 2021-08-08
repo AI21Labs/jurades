@@ -29,7 +29,7 @@ export default function Welcome() {
 
     return <Grid container direction={"row"} className={classes.fullBody} alignItems={"stretch"}>
         <Grid item md={5} style={{overflow: 'hidden'}} container alignItems={"flex-end"} justify={"flex-end"}>
-            <Grid item><img src={homepageDino} style={{marginBottom: -35}} width={809}/></Grid>
+            <Grid item><img src={homepageDino} style={{marginBottom: -35}} width={809} alt={""}/></Grid>
         </Grid>
         <Grid item md={7} style={{padding: "0 16px", position: "relative"}}>
             <Box marginTop={7}/>

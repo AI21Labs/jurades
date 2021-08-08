@@ -75,7 +75,7 @@ export default function Game() {
                 <InputComponent/>
             </Grid>
             <Grid item sm={4} style={{overflow: "visible", position: 'relative'}}>
-                <img src={dino} className={classes.dino}/>
+                <img src={dino} className={classes.dino} alt={""}/>
             </Grid>
         </Grid>
     </Grid>
