@@ -6,21 +6,22 @@ from flask_cors import CORS
 
 from prompts import prompts_dict
 
-API_URL = os.getenv("API_URL", "https://api.ai21.com/studio/v1/complete")
+API_URL = os.getenv("API_URL", "https://api.ai21.com/studio/v1/{}/complete")
 # Set the ENV var with your AI21 Studio API key:
 API_KEY = os.getenv("AI21_API_KEY")
+# options are j1-jumbo and j1-large
+MODEL = "j1-jumbo"
 
 
-def _japi_request(prompt, model="j1-large", num_results=1, max_tokens=100, stopSequences=[],
+def _japi_request(prompt, model=MODEL, num_results=1, max_tokens=100, stopSequences=[],
                   temperature=0.8, topP=1.0, topKReturn=5):
     """
     Helper function to send request to AI21 Studio
     :return: the JSON response from the API
     """
-    res = requests.post(API_URL,
+    res = requests.post(API_URL.format(model),
                         headers={"Authorization": f"Bearer {API_KEY}"},
                         json={
-                            "model": model,
                             "prompt": prompt,
                             "numResults": num_results,
                             "maxTokens": max_tokens,

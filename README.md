@@ -84,7 +84,13 @@ The player may write/say anything they want, except for what's written on the ca
 
 # Configuration
 
-You can change a few of the game's configuration located in the client's config file.
+You can switch between using the large and jumbo model inside `server/main.py`:
+```python
+# options are j1-jumbo and j1-large
+MODEL = "j1-jumbo"
+```
+
+Also, You can change a few of the game's configuration located in the client's config file.
 
 ```javascript
 // client/src/const/game.js
